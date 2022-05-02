@@ -1,0 +1,118 @@
+page: # general (meta-) information used mostly in the html header
+  html_title: CoCi Hackathon
+  html_author: COSS@ETHZ
+  html_description: Hackathon, Renewable, computational
+  # sarch terms that are good for SEO
+  logo: navbar-logo.svg
+  
+
+title:
+  heading: CoCi Hackathon 2022
+  subheading: Welcome to a new experience!
+  # Note the subheading is actually displayed above
+  button_text: Learn more!
+  image: header-bg.jpg
+
+
+section1:
+  title: Key concepts
+  subtitle: What you'll learn
+  content_items: # keep 3 items for optimal alignment
+    - title: E-commerce
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa_icon: shopping-cart
+    - title: Responsive design
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa_icon: laptop
+    - title: Security
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa_icon: lock
+
+
+
+section2:
+  title: The topics
+  subtitle: The hackathon will be about these
+  content_items: # keep 3 (or 6 or 9) items for optimal alignment
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      # description is shown as a popup upon click on the image
+      image: portfolio/1.jpg
+      # Note: image paths implicitly have: ./assets/img, so the above becomes ./assets/img/portfolio/1.jpg    
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: portfolio/3.jpg
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: portfolio/4.jpg
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: portfolio/5.jpg
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: portfolio/6.jpg
+    - title: Thing
+      subtitle: It's cool, trust me
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: portfolio/2.jpg
+
+
+
+section3:
+  title: Timeline
+  subtitle: What happens when
+  content_items:
+    - title: Time 1
+      subtitle: Event
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/1.jpg
+    - title: Time 2
+      subtitle: Event
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/2.jpg
+    - title: Time 3
+      subtitle: Event
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/3.jpg
+    - title: Time 4
+      subtitle: Event
+      description: A longer description.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      image: about/4.jpg
+  timeline_conclusion_text: "Be parrt <br/> of our <br/> story!" # needs a little fiddling with line breaks
+
+
+section4:
+  title: Speakers
+  subtitle: What you'll learn
+  content_items:
+    - name: John Smith
+      role: Doing stuff
+      image: team/1.jpg
+      twitter:
+      facebook:
+      linkedin:
+    - name: John Smith
+      role: Doing stuff
+      image: team/2.jpg
+      twitter:
+      facebook:
+      linkedin:
+    - name: John Smith
+      role: Doing stuff
+      image: team/3.jpg
+      twitter:
+      facebook:
+      linkedin:
+  description: These people are very important, let everyone know that!
+
+
+section5:
+
+
+
+application:
