@@ -19,10 +19,11 @@ jobs:
       - name: copy file to output
         run: python main.py templates out values.yaml
       - name: upload to server
-        uses: siva1024/scp-deployer@latest
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          source: ./out/*
+          port: 22
+          source: "out/*""
           target: "~/web/"
