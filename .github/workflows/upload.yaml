@@ -8,21 +8,21 @@ jobs:
   compile_html:
     runs-on: ubuntu-latest
       steps:
-      - uses: actions/checkout@v2
-      - name: Install Python, pipenv and Pipfile packages
-        uses: palewire/install-python-pipenv-pipfile@v2
-        with:
-          python-version: 3.8
+        - uses: actions/checkout@v2
+        - name: Install Python, pipenv and Pipfile packages
+          uses: palewire/install-python-pipenv-pipfile@v2
+          with:
+            python-version: 3.8
 
-      - name: install pip packages
-        run: pip install -r requirements.txt
-      - name: copy file to output
-        run: python main.py templates out values.yaml
-      - name: upload to server
-        uses: siva1024/scp-deployer@latest
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          source: "out/"
-          target: "~/web/"
+        - name: install pip packages
+          run: pip install -r requirements.txt
+        - name: copy file to output
+          run: python main.py templates out values.yaml
+        - name: upload to server
+          uses: siva1024/scp-deployer@latest
+          with:
+            host: ${{ secrets.HOST }}
+            username: ${{ secrets.USERNAME }}
+            password: ${{ secrets.PASSWORD }}
+            source: "out/"
+            target: "~/web/"
